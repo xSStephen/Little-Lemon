@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(30, 38%, 92%);
+  margin: 1rem 4rem 1rem 4rem;
+  background-color: rgb(203, 200, 200);
+}
+
+/* Logo & Navbar */
+.logo-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.logo-img > img {
+  width: 600px;
+}
+
+.navbar {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.navbar > ul {
+  display: flex;
+  background-color: #333;
+  list-style-type: none;
+  padding: 0 1rem 0 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar > ul > li {
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.navbar > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar > ul > li:hover {
+  background-color: rgb(144, 181, 33);
+  transition: 0.7s;
+}
+
+/* Offer */
+.offer {
+  border: 1px solid black;
+  padding: 3rem 0 3rem 0;
+  margin: 3rem 0 3rem 0;
+  border-radius: 20px;
+  background-image: url(./imgs/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 25% 70%;
+  background-size: cover;
+  color: white;
+}
+
+.offer > h1 {
+  margin: -2rem 0 1rem 0;
+  padding-left: 1rem;
+  font-size: 2rem;
+}
+
+.offer > p {
+  margin: 3rem 0 -2rem 0;
+  padding-left: 1rem;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow: hidden;
+  width: auto;
+  gap: 20px;
+}
+
+.burger {
+  padding: 0 2rem 0 2rem;
+  background-color: #333;
+  border-radius: 20px;
+  color: white;
+  width: auto;
+}
+
+.burger > h1 {
+  padding: 1rem 0 1rem 0;
+}
+
+.burger > p {
+  padding: 1rem 0 1rem 0;
+}
+
+.burger-img > img {
+  width: 250px;
+  border-radius: 15px;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+}
